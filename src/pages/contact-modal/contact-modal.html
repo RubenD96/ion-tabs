@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Add Contact</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <form>
+        <ion-item>
+            <ion-label>Name</ion-label>
+            <ion-input type="text" [(ngModel)]="contactName" name="name"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>E-mail</ion-label>
+            <ion-input type="email" email [(ngModel)]="mail" name="mail"></ion-input>
+        </ion-item>
+
+        <button ion-button full round type="submit" (click)="addContact()" [disabled]="contactName.length == 0 || mail.length == 0">
+            {{buttonText}}
+        </button>
+    </form>
+</ion-content>

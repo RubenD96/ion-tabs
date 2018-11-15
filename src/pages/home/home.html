@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to the Party Planner!</h2>
+  <ion-list>
+      <ion-item-sliding *ngFor="let party of parties">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/logo.png">
+          </ion-thumbnail>
+          <h2>{{party.title}}</h2>
+          <p>{{party.startDate}} - {{party.endDate}}</p>
+          <p>{{party.location}}</p>
+        </ion-item>
+      </ion-item-sliding>
+  </ion-list>
+  <button ion-button (click)="openPartyPlanner()">ADD PARTY</button>
+</ion-content>
