@@ -1,9 +1,7 @@
 <ion-header>
-
     <ion-navbar>
-        <ion-title>partyplanner</ion-title>
+        <ion-title>Create new party</ion-title>
     </ion-navbar>
-
 </ion-header>
 
 
@@ -16,8 +14,8 @@
     <input type="text" [(ngModel)]="description" name="description" placeholder="Party Description (optional)"/>
     <h2>Start Date</h2>
     <input type="datetime-local" [(ngModel)]="startDate" name="startDate"/>
-    <h2>End Date</h2>
-    <input type="datetime-local" [(ngModel)]="endDate" name="endDate"/>
+    <h2>Duration (in hours)</h2>
+    <input type="number" [(ngModel)]="duration" name="duration"/>
 
     <h2>Invitations</h2>
     <button ion-button full round (click)="addInvitation()">
@@ -43,5 +41,6 @@
 
         </ion-item-sliding>
     </ion-list>
-    <button ion-button full round (click)="sendInvitations()" [disabled]="invitations.length == 0 || title.length == 0 || startDate == undefined || endDate == undefined">Send Invitations</button>
+
+    <button ion-button full round (click)="sendInvitations()" [disabled]="invitations.length == 0 || title.length == 0 || startDate == undefined || duration <= 0">Send Invitations</button>
 </ion-content>

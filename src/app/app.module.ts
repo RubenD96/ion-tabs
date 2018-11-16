@@ -12,6 +12,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {Contacts} from "@ionic-native/contacts";
 import {Calendar} from "@ionic-native/calendar";
 import {EmailComposer} from "@ionic-native/email-composer";
+import {ToastHelper} from "../model/helpers/ToastHelper";
 
 @NgModule({
     declarations: [
@@ -37,6 +38,7 @@ import {EmailComposer} from "@ionic-native/email-composer";
         Contacts,
         Calendar,
         EmailComposer,
+        ToastHelper,
         {provide: ErrorHandler, useClass: IonicErrorHandler}
     ]
 })

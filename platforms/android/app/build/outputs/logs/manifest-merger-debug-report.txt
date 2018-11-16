@@ -11,15 +11,18 @@ INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:12:127-184
 manifest
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\ea414d02cdac254c2a527b77f211cdc1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\de3be9b02522ad40b9d237369e82c963\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:17:1-27:12
 MERGED from [:CordovaLib] C:\ion-tabs-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
 		INJECTED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml
@@ -55,7 +58,13 @@ ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:5:5-15:19
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:5:5-16:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\ea414d02cdac254c2a527b77f211cdc1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\ea414d02cdac254c2a527b77f211cdc1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\de3be9b02522ad40b9d237369e82c963\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\de3be9b02522ad40b9d237369e82c963\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:25:5-20
 	android:supportsRtl
@@ -92,38 +101,64 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
 	android:name
 		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.synconset.MultiImageChooserActivity
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:15:9-160
+	android:label
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:15:19-57
+	android:theme
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:15:113-157
+	android:name
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:15:58-112
 uses-sdk
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\ea414d02cdac254c2a527b77f211cdc1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\ea414d02cdac254c2a527b77f211cdc1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\de3be9b02522ad40b9d237369e82c963\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\de3be9b02522ad40b9d237369e82c963\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:21:5-23:54
 MERGED from [:CordovaLib] C:\ion-tabs-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] C:\ion-tabs-master\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.1.1] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\df72b513eb2cb8b35a4a675a28bbac08\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Ruben\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\2900d1d36831b2b545c833fb84ab60bb\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:16:42-71
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:17:42-71
 	android:minSdkVersion
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:16:15-41
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:17:15-41
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:17:5-72
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:18:5-72
 	android:name
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:17:22-69
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:18:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:18:5-73
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:19:5-73
 	android:name
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:18:22-70
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:19:22-70
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:19:5-71
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:20:5-71
 	android:name
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:19:22-68
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:20:22-68
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:20:5-72
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:21:5-72
 	android:name
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:20:22-69
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:21:22-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:21:5-73
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:22:5-73
 	android:name
-		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:21:22-70
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:22:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:25:22-72
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from C:\ion-tabs-master\platforms\android\app\src\main\AndroidManifest.xml:13:13-130
 	android:resource

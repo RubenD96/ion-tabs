@@ -34,7 +34,17 @@
     },
     "cordova-plugin-email-composer": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-photo-library": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-telerik-imagepicker": {
+      "PACKAGE_NAME": "io.ionic.starter"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    }
+  }
 }

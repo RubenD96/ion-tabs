@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NavParams, ToastController, ViewController} from 'ionic-angular';
+import {NavParams, ViewController} from 'ionic-angular';
 
 @Component({
     selector: 'page-contact-modal',
@@ -11,7 +11,7 @@ export class ContactModalPage {
     mail: string = '';
     buttonText: string = 'Add Contact';
 
-    constructor(public viewCtrl: ViewController, public navParams: NavParams, private toast: ToastController) {
+    constructor(public viewCtrl: ViewController, public navParams: NavParams) {
         let navName = navParams.get('name');
         let navMail = navParams.get('mail');
         if (navName !== undefined && navMail !== undefined) {

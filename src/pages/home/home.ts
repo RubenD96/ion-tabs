@@ -3,6 +3,7 @@ import {NavController} from 'ionic-angular';
 import {PartyplannerPage} from "../partyplanner/partyplanner";
 import {Calendar} from "@ionic-native/calendar";
 import {EmailComposer} from "@ionic-native/email-composer";
+import {ToastHelper} from "../../model/helpers/ToastHelper";
 
 @Component({
     selector: 'page-home',
@@ -10,21 +11,30 @@ import {EmailComposer} from "@ionic-native/email-composer";
 })
 export class HomePage {
 
-    constructor(public navCtrl: NavController, private calendar: Calendar, private mailComposer: EmailComposer) {
+    constructor(public navCtrl: NavController,
+                private calendar: Calendar,
+                private mailComposer: EmailComposer,
+                private toast: ToastHelper) {
     }
 
     parties: any = [];
 
     ionViewDidLoad() {
-        this.calendar.hasWritePermission().then(bool => {
-            if (!bool) {
-                this.calendar.requestWritePermission();
+        this.calendar.hasWritePermission().then(permission => {
+            if (!permission) {
+                this.calendar.requestWritePermission().catch(err => {
+                    this.toast.error();
+                    console.log(err);
+                });
             }
         });
 
-        this.mailComposer.hasPermission().then(bool => {
-            if (!bool) {
-                this.mailComposer.requestPermission();
+        this.mailComposer.hasPermission().then(permission => {
+            if (!permission) {
+                this.mailComposer.requestPermission().catch(err => {
+                    this.toast.error();
+                    console.log(err);
+                });
             }
         });
     }
